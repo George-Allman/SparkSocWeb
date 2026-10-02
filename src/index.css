@@ -8,6 +8,7 @@
   --color-text-h: var(--text-h);
   --color-bg: var(--bg);
   --color-bg-secondary: var(--bg-secondary);
+  --color-bg-tertiary: var(--bg-tertiary);
   --color-border: var(--border);
   --color-code-bg: var(--code-bg);
   --color-accent: var(--accent);
@@ -22,13 +23,14 @@ html {
 }
 
 :root {
-  --text: #a1a8c3;
+  --text: #a2a5af;
   --text-h: #ffffff;
-  --bg: #0b0b0f;
-  --bg-secondary: #0f0f14;
+  --bg: #0e0e13;
+  --bg-secondary: #111116;
+  --bg-tertiary:#17171d;
   --border: #1e2235;
   --code-bg: #12141f;
-  --accent: rgb(53, 124, 255);
+  --accent: #ffc533;
   --accent-bg: rgba(59, 108, 246, 0.1);
   --accent-border: rgba(59, 108, 246, 0.5);
   --accent-glow: rgba(59, 108, 246, 0.35);

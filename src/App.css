@@ -8,5 +8,6 @@
   --accent: #4a89ff;
   --accent-bg: rgba(170, 59, 255, 0.15);
   --accent-border: rgba(170, 59, 255, 0.5);
-
+  --bg-secondary: #0f0f14;
+  --bg-tertiary: #27274b;
 }

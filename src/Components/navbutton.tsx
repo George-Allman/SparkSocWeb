@@ -1,13 +1,13 @@
 import { useRef, useState } from "react";
 import React from "react";
 
-const LINKS = ["Resume", "Projects", "Contact"];
+const LINKS = ["Home", "About", "Events", "Sponsors", "Contact"];
 
 export default function NavLinks() {
   const containerRef = useRef<HTMLDivElement>(null);
   const linkRefs = useRef<(HTMLAnchorElement | null)[]>([]);
   const [style, setStyle] = useState<{ left: number; width: number } | null>(
-    null
+    null,
   );
   const [visible, setVisible] = useState(false);
 
@@ -33,7 +33,7 @@ export default function NavLinks() {
   return (
     <div
       ref={containerRef}
-      className="relative flex gap-6 p-5 text-text"
+      className="relative flex gap-12 p-5 text-text"
       onMouseLeave={handleLeave}>
       {LINKS.map((label, i) => (
         <a
